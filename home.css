@@ -1,0 +1,348 @@
+body{
+
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	background-color:#FFF;
+
+}
+.container{
+	
+	width: 80%;
+	margin: 0 auto;
+	overflow:hidden;
+}
+
+header ul{
+
+	margin: 0;
+	padding: 0;
+}
+header{
+	
+	background-color:#FFF;
+	padding-top: 20px;
+	min-height: 70px;
+	
+}
+header a{
+
+	color: #212121;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+header li{
+
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+	font-size: 14px;
+
+}
+header #emri{
+
+	float: left;
+}
+header h1{
+	color: #2ea3f2;
+	margin: 0;
+	margin-top: 8px;
+	
+}
+
+header nav{
+	
+	float: right;
+	margin-top: 20px;
+}
+.container nav a:hover {
+
+	color: #ceda00;
+}
+#emri h1:first-letter {
+	color: #ceda00;
+}
+
+ .register{
+
+  	color: #FFF;
+    border: 2px solid #2ea3f2;
+    border-radius: 3px;
+    padding: 2px 12px 2px 12px;
+    margin-top: -3px;
+	background: #2ea3f2;	
+	}
+	.register a{
+
+		color: #FFF;
+	}
+	#foto{
+
+		width: 100%;
+	}
+/*Partneret*/
+.pr{
+
+	display: flex;
+	width: 40%;
+	margin:0 auto;
+	justify-content: space-around;
+
+}
+.pa{
+
+	flex-basis:25%;
+}
+.partneret{
+
+	background: #e0e0e0;
+	text-align: center;
+	height: 300px;
+	margin-top: -5px;
+	padding-top: 30px;
+}
+.partneret h2{
+
+	margin:0;
+}
+.pa{
+	position: relative;
+	overflow: hidden;
+	padding-top: 50px;
+}
+.pa img {
+	
+	background-size:  cover;
+}
+.img img{
+
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+/*Services*/
+.services{
+
+	overflow: hidden;
+	text-align: center;
+	background: #FFF;
+	padding: 60px;
+
+}
+.services h2{
+	text-transform: uppercase;
+	margin-bottom:  60px;
+	color: #212121;
+	font-size: 40px;
+}
+.border{
+
+	display: block;
+	margin: auto;
+	width:110px;
+	height: 3px;
+	background-color: #ceda00;
+	margin-bottom: 20px;
+}
+.sv{
+
+	margin-bottom: 20px;
+}
+.sv a {
+
+	display: inline-block;
+	margin: 0 30px;
+	width: 110px;
+	height: 110px;
+	overflow: hidden;
+	border-radius: 25%;
+}
+.sv a img{
+
+	width: 100%;
+	filter: grayscale(100%);
+	transition: 0.4s all;
+
+}
+.sv a:hover >img{
+
+	filter: none;
+
+}
+.section{
+
+	height: 0;
+	overflow: hidden;
+
+}
+.name{
+
+	text-transform: uppercase;
+	color: #212121;
+}
+.section:target{
+	height: auto;
+}
+.section ul{
+
+	width: 3%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.section .name  {
+
+	width: 500px;
+}
+
+.section a{
+
+	text-decoration: none;
+	font-size: 14px;
+	color: #212121;
+}
+/*Footer*/
+#footer{
+
+	background-color: #262626;
+	color: #FFF;
+	width: 100%;
+	height: 250px;
+}
+#footer h4{
+
+	text-align: center;
+	color: #2291eb;
+	padding-top: 20px;
+}
+.imgimg{
+
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin:0 auto;
+	padding-top: 30px;
+}
+.image{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#footer p {
+
+	text-align: center;
+	padding-top: 10px;
+
+}
+.team-member{
+	width: 70%;
+	margin: 20px auto;
+}
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+}
+.register{
+	text-align: center;
+	background: #2ea3f2;
+}
+.register a{
+	color: black;
+}
+.teksti{
+	flex-direction: column;
+}
+.container{
+	overflow:visible;
+}
+header a{
+	font-size: 14px;
+}
+
+#footer{
+	overflow: hidden;
+}
+.p{
+	text-align: center;
+	margin-top: -10px;
+
+}
+  /* Pajisje shumë të vogla (smart phones) */
+@media only screen and (min-width: 240px) and (max-width: 575px){
+
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 7px;
+}
+.pr{
+	width: 80%;
+	margin-bottom: 10px;
+
+}
+.paragraf{
+
+
+	text-align: center;
+	margin-top: -10px;
+
+}
+.imgimg{
+	
+	margin-top: -15px;
+}
+}
+/* Pajisje të vogla (landscape smart phones) */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+.navbar ul{
+	
+	margin-bottom: 10px;
+}
+.pr{
+	width: 70%;
+	margin-bottom: 10px;
+
+}
+
+.paragraf{
+
+
+	text-align: center;
+	margin-top: -10px;
+
+}
+.imgimg{
+	margin-top: -15px;
+}
+}
+
+    /* Pajisje të mesme (tableta) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.pr{
+	width: 70%;
+	margin-bottom: 10px;
+
+}
+}
+
+    /* Pajisje të mëdha (desktopa) */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+.pr{
+	width: 70%;
+	margin-bottom: 10px;
+
+
+}
+}
+
+    /* Pajisje shumë të mëdha (desktopa të mëdhenj) */
+@media only screen and (min-width: 1200px) and (max-width: 1679px){
+.pr{
+	width: 60%;
+	margin-bottom: 10px;
+
+
+}
+}
