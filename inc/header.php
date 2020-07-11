@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SMP Projekti</title>
+    <title> ProjektiWebbb</title>
     <link rel="stylesheet" href="styleee.css">
     <link rel="stylesheet" type="text/css" href="home.css">
 </head>
@@ -23,6 +23,7 @@
                     <li><a href='home.php'>Home</a></li>
                     <li><a href='about.php'>About</a></li>
                     <li><a href='services.php'>Services</a></li>
+                    <li><a href='news.php'>News</a></li>
                     <li><a class="register" href='signin.php'>Sign In/Register</a></li> 
                     
                     <?php if(isset($_SESSION['antari'])){
