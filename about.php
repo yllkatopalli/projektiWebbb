@@ -1,3 +1,4 @@
+<?php include_once "inc/header.php";?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,24 +10,7 @@
 </head>
 
 	<body>
-	<header>
 	
-	
-	<div class="container">
-		<div id="emri">
-			<h1>comWEB</h1>
-		</div>
-		<nav class="navbar">
-			<ul>
-			<li><a href="home.html">Home</a></li>
-			<li class="highlight"><a href="about.html">About</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li class="register"><a href="signin.html">Sign in/Register</a></li>
-		</ul>
-		</nav>
-	</div>
-
-</header>
 <div class="bar">
 		<div id="mm">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
