@@ -140,8 +140,27 @@ body{
 .pitem img{
     width: 30%;
 }
+@media only screen and (min-width: 240px) and (max-width: 575px){
+    .titujt{
+     margin-top: 50px;
+}
+    #members tr th:nth-child(3){
+        display: none;
+    }
+    #members tr td:nth-child(3){
+        display: none;
+    }
+    #members{
+        width: 100%;
+        margin: 0;
+    }
+    
 
-
+}@media only screen and (min-width: 576px) and (max-width: 767px){
+    .titujt{
+        margin-top: 50px;
+    }
+}
 /**======= End of Page Sidebar=======*/
 
 /**======= Footer =======*/
