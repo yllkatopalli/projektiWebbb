@@ -331,6 +331,10 @@ header nav{
  /* Pajisje shumë të vogla (smart phones) */
 
 @media only screen and (min-width: 240px) and (max-width: 575px){
+.container{
+	width: 100%;
+}
+	
 
 .navbar ul{
 	display: flex;
