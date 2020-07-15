@@ -268,34 +268,108 @@ header a{
 	margin-top: -10px;
 
 }
+.toggle-navbar-icon{
+	display: none;
+}
   /* Pajisje shumë të vogla (smart phones) */
 @media only screen and (min-width: 240px) and (max-width: 575px){
-
-.navbar ul{
-	display: flex;
-	flex-direction: row;
-	margin-bottom: 7px;
-}
 .pr{
-	width: 80%;
-	margin-bottom: 10px;
-
+	width: 100%;
 }
-.paragraf{
-
-
-	text-align: center;
-	margin-top: -10px;
-
-}
-.imgimg{
+.toggle-navbar-icon{
 	
-	margin-top: -15px;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	background-position: center;
+	cursor: pointer;
+	
 }
+.toggle-navbar-icon:hover{
+	opacity: 0.8;
+}
+.toggle-navbar-icon{
+	display: block;
+	float: right;
+	
+}
+.toggle-navbar{
+	width: 50px;
+	
+	
+}
+.toggle-navbar ul{
+	display: flex;
+	flex-direction: column;
+	white-space: nowrap;
+	visibility: hidden;
+	height: 0;
+	margin-bottom: 40px;
+	transition: all 0.3s ease-in-out;
+	
+}
+.toggle-navbar ul li{
+	padding: 10px 0;
+}
+.toggle-navbar ul li a{
+	padding: 10px 0;
+	opacity: 0;
+}
+
+
 }
 /* Pajisje të vogla (landscape smart phones) */
 @media only screen and (min-width: 576px) and (max-width: 767px){
+	.titujt{
+		float: right;
+		
+	}
 
+	.center{
+		float: left;
+		
+		margin-left: 200px;
+	}
+	.toggle-navbar-icon{
+	
+		background-repeat: no-repeat;
+		background-position: center;
+		
+		background-position: center;
+		cursor: pointer;
+		
+	}
+	.toggle-navbar-icon:hover{
+		opacity: 0.8;
+	}
+	.toggle-navbar-icon{
+		display: block;
+		float: right;
+		
+	}
+	.toggle-navbar{
+		width: 300px;
+		
+		
+	}
+	.toggle-navbar ul{
+		display: flex;
+		flex-direction: column;
+		white-space: nowrap;
+		visibility: hidden;
+		height: 0;
+		margin-bottom: 40px;
+		transition: all 0.3s ease-in-out;
+		
+	}
+	.toggle-navbar ul li{
+		padding: 10px 0;
+	}
+	.toggle-navbar ul li a{
+		padding: 10px 0;
+		opacity: 0;
+	}
+	
 .navbar ul{
 	
 	margin-bottom: 10px;
@@ -316,13 +390,26 @@ header a{
 .imgimg{
 	margin-top: -15px;
 }
+.pitem img{
+    width: 30%;
 }
+
+}
+@media only screen and (min-width: 240px) and (max-width: 575px){
+.container{
+	width: 100%;
+}
+
+	header nav{
+		width: 80%;
+	}
 
     /* Pajisje të mesme (tableta) */
 @media only screen and (min-width: 768px) and (max-width: 991px){
-.pr{
+header nav{
 	width: 70%;
 	margin-bottom: 10px;
+	float: left;
 
 }
 }
