@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+    include_once "inc/funk.php";
+?>
+<?php
+  if (isset($_POST["login"])) {
+    login($_POST['email'],$_POST['password']);
+  }
+?>
 <html>
 
 <head>
